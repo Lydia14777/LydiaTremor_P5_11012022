@@ -6,7 +6,8 @@ const callProduct = function () {
         .then(res => res.json()) 
         //Pour renvoyer un tableau
         .then((array) => { 
-            kanap(array); 
+            kanap(array);
+            console.log(array);
         })
         //Sinon renvoyer un message d'erreur
         .catch(function(err) {
