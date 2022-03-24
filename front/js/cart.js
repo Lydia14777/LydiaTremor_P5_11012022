@@ -321,7 +321,7 @@ function commander () {
 						console.log(data);
 						window.confirm("Votre commande a été passée\nVotre numéro de commande : "+data.orderId);
 						localStorage.clear();
-						window.location.href="index.html";
+						window.location.href="confirmation.html";
 					})
 					.catch(err=>console.error(err))
 
